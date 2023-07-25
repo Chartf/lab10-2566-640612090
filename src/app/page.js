@@ -1,8 +1,8 @@
 "use client";
 
 import axios from "axios";
-import { useState, useEffect } from "react";
 import { cleanUser } from "@/libs/cleanUser";
+import { useState, useEffect } from "react";
 import { UserCard } from "@/components/UserCard";
 export default function RandomUserPage() {
   //user = null or array of object
